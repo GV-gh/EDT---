@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42a77a6b-b3be-40f6-beb5-35830e151d5f">
+  <producedTypes>
+    <objectType typeId="afffd6bb-399d-43c3-92c0-00902911444a" valueTypeId="27328d1a-e81c-483f-82a5-7e9eceb8499a"/>
+    <refType typeId="3f1920a6-1f9b-49c3-91a3-f097d71cc0e4" valueTypeId="c72274ca-5ff6-4d7a-bf57-4903a998aa62"/>
+    <selectionType typeId="70b0e2fd-6be7-4662-8bda-d3c0ef259c67" valueTypeId="5cf372ba-4b9b-4e5c-a1d8-d1e733d7dd1a"/>
+    <listType typeId="dbfa9688-c769-4e84-9eb0-46552dfa70d8" valueTypeId="b3a48c70-106f-4068-acc1-3758281f90ce"/>
+    <managerType typeId="15607c56-f745-4bc5-a1ac-0578797ed369" valueTypeId="03a41d58-accf-4f62-b00d-f7af33a67a29"/>
+  </producedTypes>
+  <name>КадровыйПеревод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КадровыйПеревод.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e4542ca8-91df-420d-a0c6-36f882f10185">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="346ef0f4-d90e-471a-b889-6e6ed2dbd6ca">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="346ef0f4-d90e-471a-b889-6e6ed2dbd6ca">
   <producedTypes>
     <objectType typeId="dd73a26f-4c43-4203-b536-d8fec0d06887" valueTypeId="4ed57be9-f400-41c1-894e-f62441a4ba6a"/>
     <refType typeId="6717b8f5-475d-4d51-bcf2-6ddb72188d27" valueTypeId="b5475ef4-ced4-42a3-bfad-a51eae2fbf04"/>
@@ -30,4 +30,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b4cb236d-e70b-4817-97a5-dc76556de39e">
+    <name>Порекомендовал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порекомендовал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
