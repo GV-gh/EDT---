@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96b80277-a716-4e1c-88ff-29785f1d7fd6">
+  <name>Магазинчик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Магазинчик</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7f85b02c-284b-4155-8eeb-827c2d18d141"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="23d8b791-12c2-4d62-be83-01e66f7bc593"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6cd24f90-6bd7-423e-9f5e-c909add8daf6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6aee2494-99f9-4de4-8a73-3d7858d457a9"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bc8fdfa0-049d-4520-a267-f65fe05061f6"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c7a477f6-fc0f-4cbc-8df4-1675ceb23f9f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="fa6349b9-1719-48c6-8e92-7353aec0ab73"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="f10861d6-d1ba-433f-b756-8a7a17a0e143">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Контрагент</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ПоступлениеТоваровУслуг</documents>
+  <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
+</mdclass:Configuration>
